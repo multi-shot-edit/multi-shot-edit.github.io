@@ -134,8 +134,10 @@ body::before{
 .author a:hover,.author a:focus-visible{color:var(--amber);border-bottom-color:currentColor}
 .authors sup{color:var(--fg-dim);font-size:.68em;margin-left:1px}
 .authors .star{font-size:1.35em;line-height:0;position:relative;top:.15em}
-.authors__affils{margin:10px 0 0;display:flex;justify-content:center;gap:20px;color:var(--fg-dim);font-size:1.02rem}
-.authors__notes{margin:6px 0 0;display:flex;justify-content:center;gap:20px;color:var(--fg-faint);font-size:.98rem}
+.authors__affils{margin:10px 0 0;display:flex;justify-content:center;gap:12px;color:var(--fg-dim);font-size:1.02rem}
+.authors__dot{color:var(--fg-faint)}
+.authors__notes{margin:6px 0 0;display:flex;justify-content:center;gap:20px;color:var(--fg-faint);font-size:1.02rem}
+.authors__notes sup{margin-right:2px}
 .authors__links{margin-top:22px;display:flex;justify-content:center;gap:12px;flex-wrap:wrap}
 .authors + .hero__sub{margin-top:44px}
 .hero__head + .teaser{margin-top:0;padding-top:clamp(14px,2vw,30px)}
